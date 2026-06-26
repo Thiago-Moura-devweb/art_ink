@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 243, 253);
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header > h1 {
+    margin-left: 50px;
+    padding: 5px;
+    color: rgb(97, 0, 161);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header  > input#pesquisa {
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 10vw;
+    border-radius: 10px;
+    border: 1px solid rgba(153, 0, 255, 0.562);
+}
+
+main {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+}
+
+main > h2 {
+    margin-left: 20px;
+    font-size: 1.3em;
+    color: rgb(75, 75, 75);
+}
+
+main > section {
+    
+}
+
+main > section > article {
+
+}
+
+aside {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#navegacao {
+    text-align: center;
+}
+
+#navegacao > ul {
+    list-style: none;
+}
+
+#navegacao > ul > li {
+   padding: 25px 0px;
+}
+
+#navegacao > ul > li > a {
+    font-weight: bold;
+    color: rgb(106, 0, 177);
+}
+
+li:hover {
+    border-radius: 5px;
+    border: 2px solid rgb(153, 0, 255);;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside > div {
+    text-align: center;
+}
+
+aside button {
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(106, 0, 177);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button > a {
+    color: rgb(255, 255, 205);
+}
