@@ -18,14 +18,14 @@ header {
     border-radius: 0px 0px 10px 10px;
 }
 
-header > h1 {
+header h1 {
     margin-left: 50px;
     padding: 5px;
     color: rgb(97, 0, 161);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header  > input#pesquisa {
+header input#pesquisa {
     height: 20px;
     margin-top: 12px;
     margin-left: 10vw;
@@ -35,27 +35,33 @@ header  > input#pesquisa {
 
 main {
     display: flex;
-    margin: auto;
+    width: 100vw;
     margin-top: 20px;
-    width: 700px;
 }
 
-main > h2 {
+main h2 {
     margin-left: 20px;
     font-size: 1.3em;
     color: rgb(75, 75, 75);
 }
 
-main > section {
-    
+main section {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-main > section > article {
+main article {
+    margin: 10px;
+}
 
+article img {
+    width: 180px;
+    height: 240px;
 }
 
 aside {
     width: 300px;
+    height: 380px;
     background-color: white;
     border-radius: 10px;
 }
@@ -64,15 +70,15 @@ aside {
     text-align: center;
 }
 
-#navegacao > ul {
+#navegacao ul {
     list-style: none;
 }
 
-#navegacao > ul > li {
+#navegacao li {
    padding: 25px 0px;
 }
 
-#navegacao > ul > li > a {
+#navegacao a {
     font-weight: bold;
     color: rgb(106, 0, 177);
 }
@@ -86,14 +92,15 @@ a {
     text-decoration: none;
 }
 
-aside > div {
+aside div {
     text-align: center;
 }
 
 aside button {
+    height: 50px;
     padding: 10px;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     text-align: center;
     border-radius: 20px;
@@ -104,6 +111,6 @@ aside button {
     font-size: 1em;
 }
 
-button > a {
+button a {
     color: rgb(255, 255, 205);
 }
